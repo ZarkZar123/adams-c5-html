@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="third html assignment" >
+        <link rel="icon" href="./favicon.jpg">
+        <title>Assignment 3</title>
+    </head>
+
+    <body>
+        
+        <form method="" >
+            <h1>User Information</h1>
+            <label for="name" >Full Name</label>
+            <input type="text" name="name" id="name" required >
+            <br>
+            <label for="email">Email Address</label>
+            <input type="email" name="email" id="email" required>
+            <br>
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" required>
+            <br>
+            <label for="phone">Phone Number</label>
+            <input type="number" name="phone" id="phone" >
+            <br>
+            <label for="dob">Date of Birth</label>
+            <input type="date" name="date of birth" id="dob">
+            <br>
+            <label for="country">Country of Residence</label>
+            <select name="country" id="country">
+                <option value="">Ghana</option>
+                <option value="">Kenya</option>
+                <option value="">Nigeria</option>
+            </select>
+            <fieldset>
+                <legend>Interests</legend>
+                <h2>Select Gender</h2>
+                <br>
+                <input type="radio" value="male" name="gender" id="male">
+                <label for="male">Male</label>
+
+                <input type="radio" value="female" name="gender" id="female">
+                <label for="female">Female</label>
+
+
+                <h2>Select Hobbies</h2>
+
+                <input type="checkbox" name="hobbies" id="reading">
+                <label for="reading">Reading</label>
+
+
+                <input type="checkbox" name="hobbies" id="sports">
+                <label for="sports">Sports</label>
+
+                <input type="checkbox" name="hobbies" id="music">
+                <label for="music">Music</label>
+            </fieldset>
+
+            <label for="text">Add Additional Information</label>
+            <br>
+            <textarea name="text" id="text" cols="30" rows="10"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>
